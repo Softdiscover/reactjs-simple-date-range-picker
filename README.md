@@ -3,7 +3,7 @@ simple date range picker made with react
 
 > A simple range date picker that allow the user to select a range of days. The selected days are visible in the calendar. Also the number and list of selected days are shown in a separate section as a simple text list. 
 
-![reactjs-simple-date-range-picker in action](https://raw.githubusercontent.com/softdiscover/reactjs-simple-date-range-picker/master/ezgif-1484302991.gif)
+![reactjs-simple-date-range-picker in action](https://raw.githubusercontent.com/softdiscover/reactjs-simple-date-range-picker/master/ezgif-1718893352.gif)
 
 ## Live Playground
 
