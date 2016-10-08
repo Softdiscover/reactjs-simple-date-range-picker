@@ -7,7 +7,7 @@ simple date range picker made with react
 
 ## Live Playground
 
-For examples of the range datepicker in action, go to https://softdiscover.github.io/reactjs-simple-date-range-picker/
+For example of the range datepicker in action, go to https://softdiscover.github.io/reactjs-simple-date-range-picker/
 
 OR
 
