@@ -36,7 +36,6 @@ var jsFiles = {
     ]
 };
 
-// Lint JS/JSX files
 gulp.task('eslint', function () {
     return gulp.src(jsFiles.source)
             .pipe(eslint({

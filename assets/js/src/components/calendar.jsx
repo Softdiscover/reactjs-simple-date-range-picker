@@ -53,7 +53,15 @@ var ZGFMcalendar = React.createClass({
         toCheck.setSeconds(0);
         toCheck.setMilliseconds(0);
 
-        return start < toCheck && toCheck < end;
+        if (parseInt(this.props.zgfmtype) === 1) {
+            return start < toCheck && toCheck <= end;
+
+        } else {
+
+            return start <= toCheck && toCheck < end;
+        }
+
+
     },
     renderDays: function () {
         var sel_date = this.state.sel_date;

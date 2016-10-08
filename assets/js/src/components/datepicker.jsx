@@ -84,6 +84,7 @@ var ZGFMdatePicker = React.createClass({
         end.setMinutes(0);
         end.setSeconds(0);
         end.setMilliseconds(0);
+        end.setDate(end.getDate()-1);
 
         var year = start.getFullYear();
         var month = start.getMonth();
