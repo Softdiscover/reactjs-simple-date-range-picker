@@ -338,8 +338,10 @@ var ZGFMcalendar = React.createClass({
         input2.setMilliseconds(0);
         input2.setDate(1);
 
-        if (input1 > input2 || input2 < input1) {
-            flag = false;
+        if (parseInt(this.props.zgfmtype) === 2 && input2 < input1) {
+            CurrentDate.setMonth(input1.getMonth());
+            selDate.setMonth(input1.getMonth());
+            flag = true;
         }
 
         if (flag) {
